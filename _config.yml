@@ -1,2 +1,25 @@
-  name: Hank Quinlan, Horrible Cop
-	markdown: kramdown
+# Site settings
+title: Time Travel Party
+email: info@hollowearthradio.org
+url: http://timetravel.party
+description: "A party exclusively for time travelers & fans thereof, presented
+by Hollow Earth Radio"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Time Travel Party
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/timetravelparty
+  - title: facebook
+    url: https://facebook.com/timetravelparty
+
+# Build settings
+markdown: kramdown
+permalink: pretty
