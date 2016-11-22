@@ -372,6 +372,11 @@ img.resize{
    max-height:50%;
 }
 
+img.resize2{
+   max-width:85%;
+   max-height:85%;
+}
+
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
