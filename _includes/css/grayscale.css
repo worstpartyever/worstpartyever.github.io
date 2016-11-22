@@ -369,6 +369,8 @@ img::-moz-selection {
 
 img.floating-box {
     display: inline-block;
+    max-width:85%;
+    max-height:85%;
     margin: 10px;
     border: 0px;  
 }
