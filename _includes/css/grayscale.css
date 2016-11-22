@@ -367,14 +367,15 @@ img::-moz-selection {
     background: 0 0;
 }
 
-img.resize{
-   max-width:50%;
-   max-height:50%;
+img.floating-box {
+    display: inline-block;
+    margin: 10px;
+    border: 0px;  
 }
 
-img.resize2{
-   max-width:85%;
-   max-height:85%;
+img.resize {
+    max-width:85%;
+    max-height:85%;
 }
 
 body {
