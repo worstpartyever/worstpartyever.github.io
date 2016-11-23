@@ -369,7 +369,7 @@ img::-moz-selection {
 
 .floating-box {
     display: inline-block;
-    width: 350px;
+    width: 310px;
     margin: 10px;
     border: 0px;  
 }
