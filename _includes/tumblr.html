@@ -4,7 +4,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Latest Show Notes</h2>
                 <div class='tumblrInjectionLine'><p id='tumblrInjectionText1'></p><hr><br></div>
-                <script type='text/javascript' src='http://worstpartyevershow.tumblr.com/api/read/json'></script>
+                <script type='text/javascript' src='http://worstpartyevershow.tumblr.com/api/read/json?number=1'></script>
                 <script type='text/javascript'>
                     document.getElementById('tumblrInjectionText1').innerHTML = tumblr_api_read.posts[0]['photo-caption'];
                 </script>
