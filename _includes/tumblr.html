@@ -3,10 +3,11 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Latest Show Notes</h2>
-                <div class='tumblrInjectionLine'><p id='tumblrInjectionText1'></p><hr><br></div>
+                <div class='tumblrInjectionLine'> <h3 id='tumblrInjectionTitle1'></h3><p id='tumblrInjectionText1'></p><hr><br></div>
                 <script type='text/javascript' src='worstpartyevershow.tumblr.com/api/read/json'></script>
                 <script type='text/javascript'>
-                    document.getElementById('tumblrInjectionText1').innerHTML = body.posts[0]['post-body'];
+                    document.getElementById('tumblrInjectionTitle1').innerHTML = body.posts[0]['regular-title'];
+                    document.getElementById('tumblrInjectionText1').innerHTML = body.posts[0]['regular-body'];
                 </script>
             </div>
         </div>
