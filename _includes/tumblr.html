@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Latest Show Notes</h2>
-                <div class='tumblrInjectionLine'> <h3 id='tumblrInjectionTitle1'></h3><p id='tumblrInjectionText1'></p><hr><br></div>
                 <script type='text/javascript'>
-                    document.getElementById('tumblrInjectionTitle1').innerHTML = tumblr_api_read.posts[0]['regular-title'];
-                    document.getElementById('tumblrInjectionText1').innerHTML = tumblr_api_read.posts[0]['regular-body'];
+                    document.write('<h3>' + tumblr_api_read['posts'][0]['regular-title'] + '</h3>;
+                    document.write('<p>' + tumblr_api_read['posts'][0]['regular-body'] + '</p>;
                 </script>
+                <hr>
             </div>
         </div>
     </section>
