@@ -280,8 +280,12 @@ img::selection {
 }
 
 img.resize {
-    max-width:85%;
-    max-height:85%;
+  max-width:85%;
+  max-height:85%;
+}
+
+h2.size-up {
+  font-size: 3rem;
 }
 
 img::-moz-selection {
