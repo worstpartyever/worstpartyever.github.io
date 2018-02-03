@@ -139,6 +139,7 @@ a:focus, a:hover {
 
 .masthead .intro-body .brand-heading {
   font-size: 50px;
+  text-shadow: 1px 1px #000000;
 }
 
 .masthead .intro-body .intro-text {
@@ -276,6 +277,11 @@ footer p {
 
 img::selection {
   background: transparent;
+}
+
+img.resize {
+    max-width:85%;
+    max-height:85%;
 }
 
 img::-moz-selection {
